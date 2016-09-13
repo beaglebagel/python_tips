@@ -99,6 +99,6 @@ if __name__ == '__main__':
     except AttributeError as ae:
         print ae
 
-    print '\n{:#^60}\n'.format('')
+    print SECTION_DIVIDER.format('')
     # help(p)
 
