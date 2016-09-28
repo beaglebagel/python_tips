@@ -44,3 +44,4 @@ if __name__ == '__main__':
         print('generator exhausted.')
 
     print SECTION_DIVIDER.format('')
+
