@@ -1,7 +1,7 @@
 """
 
-Just a collection of reusables: String templates, functions..
+Just a collection of reuseables: string templates, functions etc..
 
 """
 
-SECTION_DIVIDER = '\n{:#^60}\n'
+SECTION_DIVIDER = '\n{:-^80}\n'
