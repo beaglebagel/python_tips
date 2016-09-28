@@ -85,7 +85,7 @@ if __name__ == '__main__':
     except AttributeError as ae:
         print ae
         p.b = 'newer B' # property b can be bound again though..
-        print 'but property b can still be bound to instance p again:', p.b
+        print 'but attribute b can still be bound to instance p again:', p.b
 
     ### read write property() example
     print SECTION_DIVIDER.format(' read / write with property() ')
